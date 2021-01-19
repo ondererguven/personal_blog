@@ -1,36 +1,14 @@
 import Link from "next/link";
+import * as style from "../src/styles/Header.module.css";
 
 export default function Header() {
   return (
-    <nav className="flex">
-      <Link href="/">
-        <a>Next'Blog</a>
-      </Link>
-      <div>
+    <>
+      <nav className={style.headerNav}>
         <Link href="/">
-          <a>Blog</a>
+          <a className={style.headerItem}>Home</a>
         </Link>
-        <Link href="/">
-          <a>About</a>
-        </Link>
-      </div>
-      <style jsx>{`
-        nav {
-          width: auto;
-          padding: 0 2rem;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          font-size: 1rem;
-        }
-        nav a {
-          margin-right: 1rem;
-          text-decoration: none;
-        }
-        nav a:hover {
-          text-decoration: underline;
-        }
-      `}</style>
-    </nav>
+      </nav>
+    </>
   );
 }

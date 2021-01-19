@@ -18,9 +18,6 @@ export const PostItem = ({ post, isBlogPost }) => {
           isBlogPost ? null : <p>{meta.description}</p>
         }
         <span>{meta.date}</span>
-        <span role='img' aria-label='one coffee'>
-          ☕ {meta.readTime + ' min read'}
-        </span>
       </div>
       <style jsx>
         {`

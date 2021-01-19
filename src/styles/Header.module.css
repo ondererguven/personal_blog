@@ -1,0 +1,19 @@
+.headerItem {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  display: inline-flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color:rgb(70, 70, 70)
+}
+
+.headerItem:hover {
+  text-decoration: underline;
+  color: rgb(70, 70, 70);
+}
+
+.headerNav {
+  display: flex;
+  justify-content: center
+}
