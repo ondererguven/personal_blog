@@ -1,6 +1,4 @@
 .headerItem {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   display: inline-flex;
   justify-content: center;
   font-size: 1.5rem;
@@ -15,5 +13,6 @@
 
 .headerNav {
   display: flex;
-  justify-content: center
+  justify-content: flex-start;
+  margin: 2rem;
 }
