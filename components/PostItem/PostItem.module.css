@@ -3,27 +3,20 @@
   flex-direction: column;
   padding: 1.2%;
   width: 60%;
-  border-radius: 15px;
-  transition: box-shadow 200ms ease-in-out;
-  box-shadow: 0px 4px 8px 0.8px rgb(214, 214, 214);
+  border-radius: 4px;
+  transition: background-color .2s ease-in-out;
 }
 
 .postItemContainer:hover {
-  border-radius: 15px;
-  box-shadow: 0px 4px 8px 0.8px rgb(170, 170, 170);
+  background-color: rgb(245, 245, 245);
   cursor: pointer;
 }
 
 .postItemHeading {
   font-size: 1.5rem;
   text-decoration: none;
-  color: rgb(70, 70, 70);
-}
-
-.postItemDescription {
-  color: rgb(70, 70, 70);
 }
 
 .postItemDate {
-  color: #bdbdbd;
+  color: rgb(165, 165, 165);
 }

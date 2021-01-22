@@ -1,0 +1,9 @@
+.articleContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1.2%;
+}
+
+.outerContainer {
+    width: 60%;
+}
