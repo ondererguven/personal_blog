@@ -4,21 +4,28 @@
 }
 
 h1 {
-  color: rgb(70, 70, 70);
+  color: #464646;
 }
 
 h2 {
-  color: rgb(70, 70, 70);
+  color: #464646;
 }
 
 h3 {
-  color: rgb(70, 70, 70);
+  color: #464646;
 }
 
 p {
-  color: rgb(70, 70, 70);
+  color: #464646;
 }
 
 body {
-  margin-bottom: 2rem;
+  color: #464646;
+  line-height: 1.5rem;
+}
+
+caption {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #808080;
 }

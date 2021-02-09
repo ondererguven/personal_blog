@@ -7,8 +7,15 @@ export default function IndexPage() {
   }
 
   return (
-    <>
+    <div>
       {posts.map(post => createPostItem(post))}
-    </>
+      <style jsx>
+        {`
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        `}
+      </style>
+    </div>
   );
 }
