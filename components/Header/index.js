@@ -3,10 +3,10 @@ import * as style from "./Header.module.css";
 
 export default function Header() {
   return (
-    <nav className={style.headerNav}>
+    <div className={style.headerContainer}>
       <Link href="/">
         <a className={style.headerItem}>Home</a>
       </Link>
-    </nav>
+    </div>
   );
 }
