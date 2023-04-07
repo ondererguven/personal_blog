@@ -1,0 +1,50 @@
+.postItemContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  border-radius: 4px;
+  padding: 0.8rem;
+  margin: 0.6rem;
+  transition: background-color .2s ease-in-out;
+  width: 90%;
+  box-shadow: #ffffff;
+}
+
+.postItemContainer:hover {
+  background-color: #1f1f1f;
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.postItemHeading {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.postItemDate {
+  color: #a5a5a5;
+}
+
+@media screen and (min-width: 500px) {
+  .postItemContainer {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .postItemContainer {
+    width: 55%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .postItemContainer {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .postItemContainer {
+    width: 45%;
+  }
+}

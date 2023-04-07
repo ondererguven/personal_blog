@@ -1,23 +1,17 @@
-import Image from 'next/image'
+import { PostItem } from "../components/PostItem/"
+import { posts } from "../getAllPosts"
+import * as style from "./index.module.css"
 
-export default function Home() {
+export default function IndexPage() {
+  const createPostItem = (post) => {
+    return <PostItem key={post.link} post={post} />
+  }
+
   return (
-    <>
-      <Image
-        src="/b.jpeg"
-        width={320}
-        height={320}
-      />
-      <Image
-        src="/m.JPG"
-        width={320}
-        height={320}
-      />
-      <Image
-        src="/i.jpeg"
-        width={320}
-        height={320}
-      />
-    </>
+    <div className={style.postContainer}>
+      {
+        posts.map(post => createPostItem(post))
+      }
+    </div>
   )
 }
