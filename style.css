@@ -12,4 +12,19 @@ h6,
 p {
     font-family: var(--system-ui);
     color: #e6e6e6ff;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#raindrop-embed-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#raindrop-embed {
+    width: 90%;
+    height: 450px;
+    border: 0px;
+    border-radius: 4px;
 }
